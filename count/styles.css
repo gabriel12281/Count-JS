@@ -1,0 +1,39 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+.container{
+	margin: 70px auto;
+	max-width: 1000px;
+	width: 90%;
+	color: #102B42;
+}
+
+.count__number{
+	text-align: center;
+	font-size: 120px;
+}
+
+.container-btn{
+	display: flex;
+	justify-content: center;
+	padding: 15px;
+}
+
+.btn{
+	margin: 20px;
+	padding: 10px;
+	background: none;
+	border: 1px solid #000;
+	border-radius: 7px;
+	cursor: pointer;
+	letter-spacing: 2px;
+	transition: all .5s ;
+}
+
+.btn:hover{
+	background: #000;
+	color: #fff;
+}
